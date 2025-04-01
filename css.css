@@ -1,0 +1,26 @@
+#calculatorContainer{
+  background-color: lightgoldenrodyellow;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 200px;  
+}
+#buttonContainer{
+  padding: 5px 5px;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.button{
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+}
+#display{
+  margin: 10px;
+  width: 85%;
+  font-size: 25px;
+}
+#equalToButton{
+  background-color: rgb(51, 184, 228);
+}
